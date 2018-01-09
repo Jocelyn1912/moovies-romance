@@ -1,9 +1,5 @@
 $(document).ready(function(){
-
-// inicio desapareción logo
-	 setTimeout(function() {
-        $('.logo').fadeOut(2500);
-    },2000);
+  
 
 }
 

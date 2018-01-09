@@ -6,10 +6,9 @@ body{
 	background-color:#93278f;
 	height: 100vh;
 	display: flex;
- align-items: center;
- justify-content: center;
-
-
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .logo img {
