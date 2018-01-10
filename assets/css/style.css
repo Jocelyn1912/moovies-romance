@@ -15,13 +15,6 @@ body{
  width: 50%;
  margin-left: 25%;
 }
-.btnRegistrer{
-	background-color: #7508A4FF;
-	color: #fff;
-	width: 8em;
-	height: 3em;
-	border-radius: 0.5em;
-}
 
 .logo h2, .logo h3, .logo h4 {
 	color:white;
@@ -29,12 +22,34 @@ body{
 	text-align: center;
 }
 
-.logo h4 {
-	color:white;
-	font-weight: 300;
-	text-align: center;
-}
+
 #register{
 	text-align: center;
 	color:white;
+}
+
+.logo-brand {
+	width: 100px;
+}
+
+.search {
+	margin-left: 270px;
+}
+
+.top {
+	color:#93278f;
+}
+
+a:link {
+	color:#93278f;
+}
+
+.title {
+		color:#93278f;
+	font-weight: 300;
+	text-align: center;
+}
+
+.hide {
+	display:none;
 }
