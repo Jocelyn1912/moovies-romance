@@ -72,9 +72,33 @@ a:link {
 	heigth: auto;
 }
 .carrusel{
-	width: 90%;
+	width: 70%;
 	height: auto;
 }
+
+
+.carousel-caption a:link h2{
+	color:white;
+	text-shadow: 2px 2px 5px #000000;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+}
+.carousel-caption a:hover h2{
+	color:white;
+	text-shadow: 2px 2px 5px #000000;
+	background-color: #93278f;
+	text-decoration: none;
+}
+
+.carousel-caption a:visited h2{
+	color:white;
+	text-shadow: 2px 2px 5px #000000;
+	}
+
+
 
 /*MEDIA JQUERY*/
 @media only screen and (max-width : 767px){
@@ -124,6 +148,8 @@ iframe {
 	width:100%;
  } 
 }
+
+
  
 
 
