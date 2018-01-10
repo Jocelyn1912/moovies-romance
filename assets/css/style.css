@@ -76,6 +76,7 @@ a:link {
 	height: auto;
 }
 
+
 .carousel-caption a:link h2{
 	color:white;
 	text-shadow: 2px 2px 5px #000000;
@@ -96,6 +97,7 @@ a{
 	color:white;
 	text-shadow: 2px 2px 5px #000000;
 	}
+
 
 
 /*MEDIA JQUERY*/
