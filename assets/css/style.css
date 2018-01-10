@@ -15,6 +15,13 @@ body{
  width: 50%;
  margin-left: 25%;
 }
+.btnRegistrer{
+	background-color: #7508A4FF;
+	color: #fff;
+	width: 8em;
+	height: 3em;
+	border-radius: 0.5em;
+}
 
 .logo h2, .logo h3, .logo h4 {
 	color:white;
