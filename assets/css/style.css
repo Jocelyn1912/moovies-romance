@@ -71,6 +71,11 @@ a:link {
 	width: 100%
 	heigth: auto;
 }
+.carrusel{
+	width: 70%;
+	height: auto;
+}
+
 
 /*MEDIA JQUERY*/
 @media only screen and (max-width : 767px){
