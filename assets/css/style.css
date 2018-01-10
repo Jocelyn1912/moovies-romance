@@ -50,6 +50,72 @@ a:link {
 	text-align: center;
 }
 
+.title2 {
+	text-align: center;
+}
+
+.title h5 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
 .hide {
 	display:none;
 }
+
+.video{
+	width: 100%
+	heigth: auto;
+}
+
+/*MEDIA JQUERY*/
+@media only screen and (max-width : 767px){
+ 
+.title-mobil {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #93278f;
+	text-align: center;
+	color:white;
+	width: 100%;
+}
+
+
+.title-mobil-2 {
+
+	text-align: center;
+	color:white;
+	width: 100%;
+	font-weight: 300;
+}
+
+iframe {
+	width:100%;
+ }
+}
+@media only screen and (max-width : 480px){
+
+.title-mobil {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #93278f;
+	text-align: center;
+	color:white;
+	width: 100%;
+}
+
+
+.title-mobil-2 {
+
+	text-align: center;
+	color:white;
+	width: 100%;
+	font-weight: 300;
+}
+ iframe {
+	width:100%;
+ } 
+}
+ 
+
+
