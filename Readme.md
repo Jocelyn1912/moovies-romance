@@ -1,4 +1,4 @@
-Plamificación:
+Planificación:
 
 Definición de producto: 
   -Incialmente nuestra idea fue otra sin embargo por algunos contratiempos con la data se decidió finalmente elegir esta temática.
