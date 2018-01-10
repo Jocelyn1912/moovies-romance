@@ -62,7 +62,19 @@ a:link {
 .hide {
 	display:none;
 }
-
+.tituloSubCategory{
+	color:#93278f;
+	font-size: 25px;
+}
+.iconoBack{	
+	width: 100%;
+	height: auto;
+	color:#93278f; 
+}
+.a-long-arrow-left{
+	width: 3em;
+	margin-left: 30%;
+}
 .video{
 	width: 100%
 	heigth: auto;
