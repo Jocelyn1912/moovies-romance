@@ -1502,48 +1502,6 @@ var data =
         "Response": "True"
       }
     ],
-    "Adventure": [
-      {
-        "Title": "The Princess Bride",
-        "Year": "1987",
-        "Rated": "PG",
-        "Released": "09 Oct 1987",
-        "Runtime": "98 min",
-        "Genre": "Adventure, Family, Fantasy",
-        "Director": "Rob Reiner",
-        "Writer": "William Goldman (book), William Goldman (screenplay)",
-        "Actors": "Cary Elwes, Mandy Patinkin, Chris Sarandon, Christopher Guest",
-        "Plot": "While home sick in bed, a young boy's grandfather reads him a story called The Princess Bride.",
-        "Language": "English",
-        "Country": "USA",
-        "Awards": "Nominated for 1 Oscar. Another 7 wins & 8 nominations.",
-        "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMGM4M2Q5N2MtNThkZS00NTc1LTk1NTItNWEyZjJjNDRmNDk5XkEyXkFqcGdeQXVyMjA0MDQ0Mjc@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "8.1/10"
-          },
-          {
-            "Source": "Rotten Tomatoes",
-            "Value": "97%"
-          },
-          {
-            "Source": "Metacritic",
-            "Value": "77/100"
-          }
-        ],
-        "Metascore": "77",
-        "imdbRating": "8.1",
-        "imdbVotes": "325,569",
-        "imdbID": "tt0093779",
-        "Type": "movie",
-        "DVD": "26 Jan 1999",
-        "BoxOffice": "N/A",
-        "Production": "20th Century Fox",
-        "Website": "http://www.theprincessbride-themovie.com/",
-        "Response": "True"
-      }
-    ],
     "Fantasy": [
       {
         "Title": "Ghost",
