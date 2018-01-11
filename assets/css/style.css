@@ -141,8 +141,18 @@ a{
 
 .fa-heart-o.heart {
 	font-size: 20px;
-
 }
+.dropdown-menu {
+	width: 80%;
+	max-width: 400px;
+	margin-left: 20px;
+	border-radius: 0px;
+}
+
+.dropdown-menu li{
+	cursor: pointer;
+}
+
 
 /*MEDIA JQUERY*/
 @media only screen and (max-width : 767px){
@@ -224,13 +234,6 @@ iframe {
  iframe {
 	width:100%;
  } 
-}
+};
 
 
- 
-
-
-=======
-}
-
->>>>>>> Stashed changes

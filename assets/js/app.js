@@ -14,7 +14,8 @@ var db = firebase.database();
 
 
 $(document).ready(function(){
-  $('.carousel').carousel()
+  $('.carousel').carousel();
+  $('.dropdown-toggle').dropdown();
 
   $("#btnLogin").click(function(){
     
@@ -57,7 +58,5 @@ $(document).ready(function(){
   });
  
 
-
-}) 
 
 
