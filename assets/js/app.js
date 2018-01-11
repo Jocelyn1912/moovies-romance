@@ -56,7 +56,5 @@ $(document).ready(function(){
         $('#printMessage').append('<div class="message">' + inputWrite + '</div>');
         $('#inputWrite').val('');
   });
- 
-
-
+})
 
