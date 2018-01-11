@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content=" user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+  <title>MooviesFem</title>
+  <!-- Latest compiled and minified CSS Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- iconos fontawesome -->
+  <script src="https://use.fontawesome.com/5fc8b62c16.js"></script>
+
+  <!-- tema opcional Bootsatrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- archivo style.css -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style2.css">
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+
+</head>
+<body>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="assets/img/logo-moovielove.png" class="logo-brand" alt=""></a>
+    </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        
+        <li><a href="#"></a></li>
+      </ul>
+      <form class="navbar-form navbar-left">
+         <div class="form-group search">
+          <input type="text" class="form-control" placeholder="Busca tu película">
+         </div>
+         <button type="submit" class="btn btn-default "><i class="fa fa-search" aria-hidden="true"></i>
+         </button>
+     </form> 
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span><i class="fa fa-user-o top" aria-hidden="true"></i>
+      </span>Usuario</a></li>
+         <li><a href="#" class="top"><span ><i class="fa fa-heart top" aria-hidden="true"></i>
+      </span>Favoritos</a></li>        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<!-- datos películas -->
+<div class="container fluid">
+  <div class="row">
+    <div class="col-xs-12 col-sm-5 col-md-5">
+      <img class="center-block" src="https://images-na.ssl-images-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SX300.jpg" alt="">
+      <!-- Rating Hearts Box -->
+  <div class='rating-stars text-center'>
+    <ul id='stars'>
+      <li class='star' title='Poor' data-value='1'>
+                <i class="fa fa-heart-o heart" aria-hidden="true"></i>
+  </li>
+      <li class='star' title='Fair' data-value='2'>
+      <i class="fa fa-heart-o heart" aria-hidden="true"></i>
+      </li>
+      <li class='star' title='Good' data-value='3'>
+       <i class="fa fa-heart-o heart" aria-hidden="true"></i>
+      </li>
+      <li class='star' title='Excellent' data-value='4'>
+        <i class="fa fa-heart-o heart" aria-hidden="true"></i>
+      </li>
+      <li class='star' title='WOW!!!' data-value='5'>
+       <i class="fa fa-heart-o heart" aria-hidden="true"></i>
+      </li>
+    </ul>
+  </div>
+  
+  
+  
+  
+  
+  
+
+    </div>
+    <div class="col-xs-12 col-sm-7 col-md-7 film">
+      <div class="col-xs-offset-1 col-xs-5 col-sm-offset-1 col-sm-5 col-md-offset-1 col-md-offset-1 col-md-5 infoMovie">
+      <p>"Title":</p>
+      <p>"Year":</p>
+      <p>"Released":</p>
+      <p>"Genre":</p>
+      <p>"Director":</p>
+      <p> "Country":</p>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-6 infoMovie2">
+      <p>Casablanca</p>
+      <p>1942</p>
+      <p>23 Jan 1943</p>
+      <p>Drama, Romance, War</p>
+      <p>Michael Curtiz</p>
+      <p> USA</p>
+    </div>
+
+     <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 post">
+          <h4>Deja tu mensaje</h4>
+          <div class="message">
+            <input id="inputWrite">
+            <button type="button" id="send"><i class="fa fa-plus" aria-hidden="true"></i> Agregar</button>
+            <!-- contenedor comentarios -->
+            <div id="printMessage" class="textA"></div>
+          </div>
+        </div>
+      </div>
+  </div>
+  
+</div>
+
+
+ 
+
+    <!-- jQuery -->
+  <script src="assets/js/jquery-3.2.1.min.js"></script>
+  
+  <!-- Archivo app.js -->
+  <script src="assets/js/app.js"></script>
+   <script src="assets/js/app-vista3.js"></script>
+
+  <!-- JavaScript Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>

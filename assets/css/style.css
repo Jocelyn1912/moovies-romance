@@ -98,7 +98,52 @@ a{
 	text-shadow: 2px 2px 5px #000000;
 	}
 
+.film {
+	background-color: #93278f;
+}
 
+.infoMovie, .infoMovie2{
+ margin-top: 20px;
+ line-height: 30px;
+ color:white;
+}
+
+.infoMovie p {
+	border-bottom: 0.3px solid white;
+}
+
+.infoMovie2 p {
+}
+.post h4 {
+	color:white;
+}
+
+#inputWrite{
+	width: 100%;
+	height: 50px;
+}
+
+#send{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.hearts {
+	margin-left: 33%;
+	font size: 30px;
+}
+
+#printMessage {
+	background-color: white;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+
+.fa-heart-o.heart {
+	font-size: 20px;
+
+}
 
 /*MEDIA JQUERY*/
 @media only screen and (max-width : 767px){
@@ -125,6 +170,39 @@ iframe {
 	width:100%;
  }
 }
+
+
+/* Rating Corazon */
+
+/* Rating Corazon */
+.rating-stars ul {
+  list-style-type:none;
+  padding:0;
+  
+  -moz-user-select:none;
+  -webkit-user-select:none;
+}
+.rating-stars ul > li.star {
+  display:inline-block;
+  
+}
+
+
+.rating-stars ul > li.star > i.fa {
+  font-size:2.5em; 
+  color:#ccc; 
+}
+
+
+.rating-stars ul > li.star.hover > i.fa {
+  color:#93278f;
+}
+
+.rating-stars ul > li.star.selected > i.fa {
+  color:red;
+}
+
+
 @media only screen and (max-width : 480px){
 
 .title-mobil {
