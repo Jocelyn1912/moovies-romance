@@ -23,66 +23,66 @@
   -->
 </head>
 <body>
-<div class="container-fluid start">
-  <div class="row">
-    <div class="col-xs-12 col-sm-12">
-      <div class="logo">
-        <img src="assets/img/logo-moovielove-white.png" alt="">
-        <h2>Aquí encontrarás tu película romantica favorita</h2>
-        <h3><i class="fa fa-user-circle" aria-hidden="true"></i></h3>
-        <h4><a data-toggle="modal" data-target="#squarespaceModal" id="register">Registro / Inicio Sesión</a></h4>        
+  <div class="container-fluid start">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+        <div class="logo">
+          <img src="assets/img/logo-moovielove-white.png" alt="">
+          <h2>Aquí encontrarás tu película romantica favorita</h2>
+          <h3><i class="fa fa-user-circle" aria-hidden="true"></i></h3>
+          <h4><a data-toggle="modal" data-target="#squarespaceModal" id="register">Registro / Inicio Sesión</a></h4>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Modal registro -->
-  <div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-          <h3 class="modal-title" id="lineModalLabel">Se parte de MoovieLove<i class="fa fa-heart-o" aria-hidden="true"></i></h3>
-        </div>
-        <div class="modal-body">
-          <!-- content goes here -->
-          <h4><strong>Registro</strong></h4>
-          <form>
-            <div class="form-group">
-              <label>Correo electrónico</label>
-              <input type="email" class="form-control" id="email" placeholder="Ingresa tu e-mail">
-            </div>
-            <div class="form-group">
-              <label>Contraseña</label>
-              <input type="password" class="form-control" id="password" placeholder="Ingresa contraseña">
-            </div>
-          </form>
-          <button type="button" id="btnRegister" >Regístrate</button>
-          <br>
-          <form>
-            <div class="form-group login-help">
-              <h4><strong>Inicio de sesión</strong></h4>
-              <label>Correo electrónico</label>
-              <input type="email" class="form-control" id="email2" placeholder="Ingresa tu e-mail">
-            </div>
-            <div class="form-group">
-              <label>Contraseña</label>
-              <input type="password" class="form-control" id="password2" placeholder="Ingresa contraseña">
-            </div>
-          </form>
-          <button type="button" id="btnLogin" >Inicia Sesión</button>
-        </div>
-        <div class="modal-footer">
-          <div class="btn-group btn-group-justified" role="group" aria-label="group button">
-            <div class="btn-group btn-delete hidden" role="group">
-              <button type="button" id="delImage" class="btn btn-default btn-hover-red" data-dismiss="modal" role="button">Delete</button>
+    <!-- Modal registro -->
+    <div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+            <h3 class="modal-title" id="lineModalLabel">Se parte de MoovieLove<i class="fa fa-heart-o" aria-hidden="true"></i></h3>
+          </div>
+          <div class="modal-body">
+            <!-- content goes here -->
+            <h4><strong>Registro</strong></h4>
+            <form>
+              <div class="form-group">
+                <label>Correo electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingresa tu e-mail">
+              </div>
+              <div class="form-group">
+                <label>Contraseña</label>
+                <input type="password" class="form-control" id="password" placeholder="Ingresa contraseña">
+              </div>
+            </form>
+            <button type="button" id="btnRegister" >Regístrate</button>
+            <br>
+            <form>
+              <div class="form-group login-help">
+                <h4><strong>Inicio de sesión</strong></h4>
+                <label>Correo electrónico</label>
+                <input type="email" class="form-control" id="email2" placeholder="Ingresa tu e-mail">
+              </div>
+              <div class="form-group">
+                <label>Contraseña</label>
+                <input type="password" class="form-control" id="password2" placeholder="Ingresa contraseña">
+              </div>
+            </form>
+            <button type="button" id="btnLogin" >Inicia Sesión</button>
+          </div>
+          <div class="modal-footer">
+            <div class="btn-group btn-group-justified" role="group" aria-label="group button">
+              <div class="btn-group btn-delete hidden" role="group">
+                <button type="button" id="delImage" class="btn btn-default btn-hover-red" data-dismiss="modal" role="button">Delete</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-	</div>
-  
+
 
 <!-- Iniciando Firebase -->
   <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
