@@ -27,6 +27,16 @@ a {
   box-shadow: 1px 1px 2px #e6e6e6;
   cursor: default;
 }
+  .view .mask, .view .content{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+}
 
 .view .mask, .view .content {
   width: 300px;
@@ -86,43 +96,43 @@ a {
   background-color: #93278f;
   transition: all 0.4s ease-in-out;
 }
-
 .vista-first h2 {
   transform: translateY(-100px);
   opacity: 0;
   transition: all 0.2s ease-in-out;
 }
-
 .vista-first p {
   transform: translateY(100px);
   opacity: 0;
 	transition: all 0.2s linear;
 }
-
 .vista-first a.info{
   opacity: 0;
 	transition: all 0.2s ease-in-out;
 }
-
 .vista-first:hover img {
 	transform: scale(1.1);
 }
-
 .vista-first:hover .mask {
 	opacity: 1;
 }
-
 .vista-first:hover h2,
 .vista-first:hover p,
 .vista-first:hover a.info {
   opacity: 1;
   transform: translateY(0px);
 }
-
 .vista-first:hover p {
   transition-delay: 0.1s;
 }
-
 .vista-first:hover a.info {
   transition-delay: 0.2s;
 }
+.favorito{
+    margin-left: 20px;
+}
+ p{
+    color:#93278f;
+ }
+
+
