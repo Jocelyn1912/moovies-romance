@@ -104,17 +104,19 @@ a{
 .infoMovie, .infoMovie2{
   margin-top: 20px;
   line-height: 30px;
-  color:white;
+  color:white !important;
 }
 
-.infoMovie p {
-  border-bottom: 0.3px solid white;
+.infoMovie3, .infoMovie4{
+  margin-top: 20px;
+  line-height: 30px;
+  color:white !important;
 }
-
-.infoMovie2 p {
+.infoMovie4 p {
+  border-bottom: 0.3px solid white !important;
 }
 .post h4 {
-  color:white;
+  color:white !important;
 }
 
 #inputWrite{
