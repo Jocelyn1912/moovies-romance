@@ -19,7 +19,7 @@ $('div.mask').on('click', (event) => {
 											'<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">'+
 											'<div class="view"> '+
 											'<img class= " " src="'+ data.Drama[i].Poster +'" alt="">'+
-											'<a href="document.location(vista3.html)" value =' + data.Drama[i].imdbID + '"><div class="mask">'+
+											'<a href="vista3.html" value =' + data.Drama[i].imdbID + '"><div class="mask">'+
 											'<h2>'+ data.Drama[i].Title +
 											+'</h2>'
 											+'</div></a>'
