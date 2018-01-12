@@ -1,10 +1,14 @@
 $(document).ready(function(){
-console.log(data);
+//console.log(data);
+$('div.mask').on('click', (event) => {
+	console.log('hice click foto');
+
+})
+
 
 	$('#dropdownMenu1').on('change', function(){
 			var selection = $('#dropdownMenu1').val();
 	
-
 			if(selection === 'Drama'){
 				$('.main').empty();
 				console.log('seleciono drama')
@@ -15,7 +19,7 @@ console.log(data);
 											'<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">'+
 											'<div class="view"> '+
 											'<img class= " " src="'+ data.Drama[i].Poster +'" alt="">'+
-											'<a href=""><div class="mask">'+
+											'<a href="document.location(vista3.html)" value =' + data.Drama[i].imdbID + '"><div class="mask">'+
 											'<h2>'+ data.Drama[i].Title +
 											+'</h2>'
 											+'</div></a>'
@@ -97,16 +101,15 @@ console.log(data);
 				$('.main').empty();
 				//llenando contenedores con peliculas del genero Family
 				for (var i = 0 ;i < data.Fantasy.length ; i++){
-					console.log(data.Fantasy[i]);
 					$('.main').append('<div class="wrapper vista-first">' +
 												' <div class="row">'+
 												'<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">'+
 												'<div class="view"> '+
 												'<img class= " " src="'+data.Fantasy[i].Poster +'" alt="">'+
-												'<a href="#" class="a"><div class="mask">'+
+												'<div class="mask">'+
 												'<h2>'+ data.Fantasy[i].Title
 												+'</h2>'
-												+'</div></a>'
+												+'</div>'
 												+'</div>' 
 												+'</div>' 
 												+'</div>'
@@ -117,11 +120,8 @@ console.log(data);
 
 	})
 	
-	$('.mask').on('click', function(){
-	var text_val = $(this).children('h2').text();
-	console.log(text_val);
+
 		
-	})
 		
 
 })
